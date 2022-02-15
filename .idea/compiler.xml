@@ -16,7 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="module.001" options="" />
       <module name="module.002" options="" />
-      <module name="rover.modular" options="-parameters" />
+      <module name="rover.modular" options="" />
     </option>
   </component>
 </project>
