@@ -1,0 +1,7 @@
+/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/rover/modular/base/adopter/StateMachineObserver.java
+/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/rover/modular/StateMachineContext.java
+/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/rover/modular/base/adopter/StateMachineAdopter.java
+/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/rover/modular/base/enums/MachineState.java
+/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/rover/modular/base/config/inspector/ApplicationContextInspector.java
+/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/rover/modular/base/enums/MachineEvent.java
+/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/rover/modular/base/config/machine/StateMachineConfig.java
