@@ -64,6 +64,7 @@
     <modules>
         <module>module.001</module>
         <module>module.002</module>
+        <module>module.003</module>
     </modules>
 
     <build>

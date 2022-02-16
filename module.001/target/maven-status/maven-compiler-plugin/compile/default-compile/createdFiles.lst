@@ -1,7 +1,6 @@
 com/nordic/rover/modular/base/config/inspector/ApplicationContextInspector.class
 com/nordic/rover/modular/base/adopter/StateMachineObserver.class
 com/nordic/rover/modular/base/adopter/StateMachineAdopter.class
-com/nordic/rover/modular/StateMachineContext.class
 com/nordic/rover/modular/base/enums/MachineState.class
 com/nordic/rover/modular/base/enums/MachineEvent.class
 com/nordic/rover/modular/base/config/machine/StateMachineConfig.class

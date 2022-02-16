@@ -1,2 +1,3 @@
-module.001-StateMachine
-module.002-Seed
+module.001-StateMachine-SpringBoot
+module.002-Consumer-SpringBoot
+module.003-CodeGenerator-JPMS
