@@ -5,10 +5,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/bootstrap/pom.xml" />
+        <option value="$PROJECT_DIR$/boostrap/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/boostrap/pom.xml" />
+        <option value="$PROJECT_DIR$/module.003/pom.xml" />
         <option value="$PROJECT_DIR$/module.004/pom.xml" />
       </set>
     </option>

@@ -1,3 +1,2 @@
-module.001-StateMachine-SpringBoot
-module.002-Consumer-SpringBoot
-module.003-CodeGenerator-JPMS
+module.001-VisitorPattern
+module.002-FactoryPattern

@@ -8,18 +8,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="module.002" />
-        <module name="module.003" />
         <module name="module.001" />
+        <module name="bootstrap" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="boos" target="14" />
+      <module name="boostrap" target="11" />
+      <module name="module.002 (1)" target="14" />
+      <module name="module.003" target="14" />
       <module name="module.004" target="14" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boos" options="" />
+      <module name="boostrap" options="" />
+      <module name="bootstrap" options="" />
       <module name="module.001" options="" />
-      <module name="module.002" options="" />
       <module name="rover.modular" options="" />
     </option>
   </component>
