@@ -1,2 +1,16 @@
 module.001-VisitorPattern
+Represent an operation to be performed on the elements of an object structure.
+Visitor lets you define a new operation without changing the classes of the elements on which it operates.
+
 module.002-FactoryPattern
+Define an interface for creating an object, but let subclasses decide which class to instantiate.
+Factory method lets a class defer instantiation to subclasses.
+
+module.003-DecoratorPattern
+Attach additional responsibilities to an object dynamically.
+Decorators provide a flexible alternative to subclassing for extending functionality.
+
+module.004-MonadPattern
+Monad is a way of chaining operations on the given object together step by step.
+In Validator each step results in either success or failure indicator to get the validated object or list of exceptions.
+
