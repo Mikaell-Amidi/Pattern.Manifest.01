@@ -14,3 +14,20 @@ module.004-MonadPattern
 Monad is a way of chaining operations on the given object together step by step.
 In Validator each step results in either success or failure indicator to get the validated object or list of exceptions.
 
+
+module.005-Facade
+Provide a unified interface to a set of interfaces in a subsystem.
+Facade defines a higher-level interface that makes the subsystem easier to use.
+
+module.006-ConditionalStrategyFactory
+Monad is a way of chaining operations on the given object together step by step.
+In Validator each step results in either success or failure indicator to get the validated object or list of exceptions.
+
+module.007-Flyweight
+A flyweight is a shared object that can be used in multiple contexts simultaneously.
+The flyweight acts as an independent object in each context.
+It’s indistinguishable from an instance of the object that’s not shared.
+Flyweights cannot make assumptions about the context in which they operate.
+
+module.008-Bridge
+Decouple an abstraction from its implementation so that the two can vary independently.
