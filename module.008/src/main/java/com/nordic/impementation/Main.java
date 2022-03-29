@@ -7,11 +7,13 @@ public class Main {
     public static void main(String[] args) {
 
         Implementor implementor = new ConcreteImplementor<>(() -> "blue");
-        RefinedSquareAbstraction blueSquare = new RefinedSquareAbstraction(implementor);
+        SquareAbstraction blueSquare = new SquareAbstraction(implementor);
         Implementor secondImplementor = new ConcreteImplementor<>(() -> "red");
-        RefinedSquareAbstraction redSquare = new RefinedSquareAbstraction(secondImplementor);
+        SquareAbstraction redSquare = new SquareAbstraction(secondImplementor);
+        TriangleAbstraction redTriangle = new TriangleAbstraction(secondImplementor);
         System.out.println(blueSquare.draw());
         System.out.println(redSquare.draw());
+        System.out.println(redTriangle.draw());
 
     }
 }

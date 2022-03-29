@@ -31,3 +31,7 @@ Flyweights cannot make assumptions about the context in which they operate.
 
 module.008-Bridge
 Decouple an abstraction from its implementation so that the two can vary independently.
+
+module.009-Strategy
+Define a family of algorithms, encapsulate each one, and make them interchangeable.
+Strategy lets the algorithm vary independently by clients that use it.
