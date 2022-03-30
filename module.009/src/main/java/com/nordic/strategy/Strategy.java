@@ -5,8 +5,8 @@ import java.util.Objects;
 
 @FunctionalInterface
 public interface Strategy<R> {
-    R trigger();
 
+    R trigger();
 
     default Strategy<R> failure(Strategy<? extends R> other) {
         Objects.requireNonNull(other);
