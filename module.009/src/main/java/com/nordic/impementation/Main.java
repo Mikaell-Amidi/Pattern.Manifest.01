@@ -5,13 +5,14 @@ import com.nordic.strategy.StrategyContext;
 
 public class Main {
     public static void main(String[] args) {
-        StrategyContext<String> vehicleContext = new Boat();
-        StrategyContext<String> secondVehicleContext = new Aeroplane();
-        Strategy<String> failOver = () -> null;
+        StrategyContext<String> vehicleContext = new Boat(String::new);
+        StrategyContext<String> secondVehicleContext = new Aeroplane(String::new);
+        Strategy<String> failOver = r -> System.out.println("the failed strategy" + r);
 
-        System.out.println(secondVehicleContext.activate());
-        System.out.println(vehicleContext.activate());
-        System.out.println(failOver.failure(() -> "the failover strategy strategy ").trigger());
+        vehicleContext.activate();
+        secondVehicleContext.activate();
+
+        failOver.and(r -> System.out.println("the great failure" + r)).trigger("mike");
 
     }
 }

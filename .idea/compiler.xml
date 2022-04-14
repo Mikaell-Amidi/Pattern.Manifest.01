@@ -22,7 +22,9 @@
     <bytecodeTargetLevel>
       <module name="boos" target="14" />
       <module name="boostrap" target="11" />
+      <module name="module.001 (1)" target="14" />
       <module name="module.002 (1)" target="14" />
+      <module name="module.010" target="14" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

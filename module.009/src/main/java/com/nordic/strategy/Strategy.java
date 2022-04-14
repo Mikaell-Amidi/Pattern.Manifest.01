@@ -3,17 +3,17 @@ package com.nordic.strategy;
 import java.io.Serializable;
 import java.util.Objects;
 
+
 @FunctionalInterface
 public interface Strategy<R> {
 
-    R trigger();
+    void trigger(R r);
 
-    default Strategy<R> failure(Strategy<? extends R> other) {
-        Objects.requireNonNull(other);
-
-        return (Strategy<R> & Serializable) () -> {
-            R res = this.trigger();
-            return Objects.nonNull(res) ? res :  other.trigger();
+    default Strategy<R> and(Strategy<? super R> after) {
+        Objects.requireNonNull(after);
+        return (Strategy<R> & Serializable) (R r) -> {
+            trigger(r);
+            after.trigger(r);
         };
     }
 }

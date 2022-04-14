@@ -24,7 +24,7 @@ public interface VisitorConsumer<T> {
     }
 
     interface Z<U> {
-        default <U> U build(VisitorConsumer<U> consumer, Supplier<U> supplier) {
+        default U build(VisitorConsumer<U> consumer, Supplier<U> supplier) {
 
             BiFunction<VisitorConsumer<U>, Supplier<U>, U> extractor = (o, s) -> {
                 U u = s.get();
