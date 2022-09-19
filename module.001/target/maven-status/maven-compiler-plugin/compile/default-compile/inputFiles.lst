@@ -1,6 +1,6 @@
-/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/machine/adopter/StateMachineAdopter.java
-/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/machine/enums/MachineEvent.java
-/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/machine/config/machine/StateMachineConfig.java
-/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/machine/enums/MachineState.java
-/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/machine/config/inspector/ApplicationContextInspector.java
-/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/machine/adopter/StateMachineObserver.java
+/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/visitor/Visitor.java
+/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/visitor/VisitorBuilder.java
+/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/implementation/Main.java
+/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/implementation/Beta.java
+/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/visitor/VisitorConsumer.java
+/Users/mikael/Workspace/Fortress/rover.modular/module.001/src/main/java/com/nordic/implementation/Alpha.java

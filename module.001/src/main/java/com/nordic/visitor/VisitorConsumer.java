@@ -37,5 +37,4 @@ public interface VisitorConsumer<T> {
         Class<?> type();
     }
 
-
 }

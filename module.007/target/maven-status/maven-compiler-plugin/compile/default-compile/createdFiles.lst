@@ -1,0 +1,5 @@
+com/nordic/impementation/Main.class
+com/nordic/impementation/Color.class
+com/nordic/flyweight/FlyweightFactory.class
+com/nordic/impementation/Car.class
+com/nordic/flyweight/Flyweight.class

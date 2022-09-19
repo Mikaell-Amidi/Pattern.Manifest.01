@@ -4,6 +4,7 @@ import com.nordic.bridge.Abstraction;
 import com.nordic.bridge.Implementor;
 
 public class TriangleAbstraction extends Abstraction<String> {
+
     public TriangleAbstraction(Implementor implementor) {
         super(implementor);
     }
