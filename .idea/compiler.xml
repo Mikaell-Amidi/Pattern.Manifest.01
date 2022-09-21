@@ -17,6 +17,7 @@
         <module name="module.009" />
         <module name="bootstrap" />
         <module name="module.010" />
+        <module name="module.011" />
         <module name="module.001" />
       </profile>
     </annotationProcessing>

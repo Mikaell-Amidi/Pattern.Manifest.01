@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
+@FunctionalInterface
 public interface Visitor<R> {
 
     R visit(Object o);
