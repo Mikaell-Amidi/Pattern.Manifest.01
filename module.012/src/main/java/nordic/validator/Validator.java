@@ -7,7 +7,7 @@ import java.util.function.Supplier;
 @FunctionalInterface
 public interface Validator<T> {
 
-    ValidatorSupplier<?> on(T t);
+    ValidatorSupplier<T> on(T t);
 
     default <E extends RuntimeException> Validator<T> thenValidate(Predicate<T> predicate, Supplier<E> supplier) {
         return p -> predicate.test(p) ? () -> p : () -> {
