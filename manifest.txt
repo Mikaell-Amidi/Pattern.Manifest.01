@@ -39,6 +39,10 @@ module-010-Template
 Define the skeleton of an algorithm in an operation,deferring some steps to subclasses.
 Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.
 
-module-0110-Command
+module-011-Command
 Encapsulate a request as an object.
 Letting you parameterize clients with different requests, queues, or log requests, and supports undoable operations.
+
+module-012-Validator
+Provides an architecture for securing and inspecting objects based on given conditions.
+Returning inspected object or triggers an event upon inspection failure.

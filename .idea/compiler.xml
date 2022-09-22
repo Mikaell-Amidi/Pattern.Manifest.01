@@ -19,6 +19,7 @@
         <module name="module.010" />
         <module name="module.011" />
         <module name="module.001" />
+        <module name="module.012" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

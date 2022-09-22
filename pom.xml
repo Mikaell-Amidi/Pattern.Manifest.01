@@ -88,6 +88,7 @@
         <module>module.009</module>
         <module>module.010</module>
         <module>module.011</module>
+        <module>module.012</module>
     </modules>
 
     <build>
