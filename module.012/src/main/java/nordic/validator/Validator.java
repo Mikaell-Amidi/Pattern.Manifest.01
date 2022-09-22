@@ -10,7 +10,7 @@ public interface Validator<T> {
     ValidatorSupplier<T> on(T t);
 
     default <E extends RuntimeException> Validator<T> thenValidate(Predicate<T> predicate, Supplier<E> supplier) {
-        return p -> predicate.test(p) ? () -> p : () -> {
+        return p -> predicate.test(this.on(p).validate()) ? () -> p : () -> {
             throw supplier.get();
         };
     }
