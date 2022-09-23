@@ -1,17 +1,17 @@
 package nordic.impementation;
 
-import nordic.iterator.Inspector;
-import nordic.iterator.Inspect;
+import nordic.iterator.IterateDirector;
+import nordic.iterator.Iterate;
 
-public class Science implements Inspect<Integer> {
+public class Science implements Iterate<Integer> {
 
     public Science() {
         classNumbers = new Integer[]{101, 102, 103};
     }
 
     @Override
-    public Inspector<Integer> inspector() {
-        return new Inspector<>(classNumbers);
+    public IterateDirector<Integer> director() {
+        return new IterateDirector<>(classNumbers);
     }
 
     private final Integer[] classNumbers;

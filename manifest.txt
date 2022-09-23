@@ -46,3 +46,6 @@ Letting you parameterize clients with different requests, queues, or log request
 module-012-Validator
 Provides an architecture for securing and inspecting objects based on given conditions.
 Returning inspected object or triggers an event upon inspection failure.
+
+module-013-Iterator
+Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.

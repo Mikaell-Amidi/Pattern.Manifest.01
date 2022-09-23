@@ -1,17 +1,17 @@
 package nordic.impementation;
 
-import nordic.iterator.Inspector;
-import nordic.iterator.Inspect;
+import nordic.iterator.IterateDirector;
+import nordic.iterator.Iterate;
 
-public class Art implements Inspect<String> {
+public class Art implements Iterate<String> {
 
     public Art() {
         papers = new String[]{"English", "History", "Geography", "Psychology"};
     }
 
     @Override
-    public Inspector<String> inspector() {
-        return new Inspector<>(papers);
+    public IterateDirector<String> director() {
+        return new IterateDirector<>(papers);
     }
 
     private final String[] papers;

@@ -2,9 +2,9 @@ package nordic.iterator;
 
 import java.util.Iterator;
 
-public class Inspector<E> implements Iterator<E> {
+public class IterateDirector<E> implements Iterator<E> {
 
-    public Inspector(E[] elements) {
+    public IterateDirector(E[] elements) {
         this.index = 0;
         this.elements = elements;
     }
@@ -19,12 +19,12 @@ public class Inspector<E> implements Iterator<E> {
         return elements[index++];
     }
 
-    public Inspector<E> first() {
+    public IterateDirector<E> first() {
         this.index = 0;
         return this;
     }
 
-    public Inspector<E> index(int index) {
+    public IterateDirector<E> index(int index) {
         this.index = index;
         return this;
     }

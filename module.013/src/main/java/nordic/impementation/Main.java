@@ -1,11 +1,11 @@
 package nordic.impementation;
 
-import nordic.iterator.Inspector;
+import nordic.iterator.IterateDirector;
 
 public class Main {
     public static void main(String[] args) {
-        Inspector<String> artInspector = new Art().inspector();
-        Inspector<Integer> scienceInspector = new Science().inspector();
+        IterateDirector<String> artInspector = new Art().director();
+        IterateDirector<Integer> scienceInspector = new Science().director();
         while (artInspector.hasNext()) {
             System.out.println(artInspector.next());
         }
