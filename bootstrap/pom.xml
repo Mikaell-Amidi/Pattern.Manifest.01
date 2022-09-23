@@ -9,7 +9,6 @@
         <version>0.0.1</version>
     </parent>
 
-    <groupId>com.nordic</groupId>
     <artifactId>bootstrap</artifactId>
     <version>0.0.1</version>
 
