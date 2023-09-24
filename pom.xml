@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.nordic</groupId>
-    <artifactId>rover.modular</artifactId>
+    <artifactId>pattern.manifest</artifactId>
     <version>0.0.1</version>
-    <name>rover.modular</name>
+    <name>pattern.manifest</name>
     <packaging>pom</packaging>
 
     <properties>
@@ -90,6 +90,8 @@
         <module>module.011</module>
         <module>module.012</module>
         <module>module.013</module>
+        <module>module.014</module>
+        <module>module.015</module>
     </modules>
 
     <build>
