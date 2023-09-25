@@ -1,0 +1,63 @@
+# Pattern.Manifest.01
+This is temporary repository, consisting of 15 generic design patterns that inspired by GOF designs, also each module consist of concrete implementation for demonstrating a concept.
+
+
+module.001-Visitor
+Represent an operation to be performed on the elements of an object structure.
+Visitor lets you define a new operation without changing the classes of the elements on which it operates.
+
+module.002-Factory
+Define an interface for creating an object, but let subclasses decide which class to instantiate.
+Factory method lets a class defer instantiation to subclasses.
+
+module.003-Decorator
+Attach additional responsibilities to an object dynamically.
+Decorators provide a flexible alternative to subclassing for extending functionality.
+
+module.004-Monad
+Monad is a way of chaining operations on the given object together step by step.
+In Validator each step results in either success or failure indicator to get the validated object or list of exceptions.
+
+module.005-Facade
+Provide a unified interface to a set of interfaces in a subsystem.
+Facade defines a higher-level interface that makes the subsystem easier to use.
+
+module.006-ConditionalStrategyFactory
+Monad is a way of chaining operations on the given object together step by step.
+In Validator each step results in either success or failure indicator to get the validated object or list of exceptions.
+
+module.007-Flyweight
+A flyweight is a shared object that can be used in multiple contexts simultaneously.
+The flyweight acts as an independent object in each context.
+It’s indistinguishable from an instance of the object that’s not shared.
+Flyweights cannot make assumptions about the context in which they operate.
+
+module.008-Bridge
+Decouple an abstraction from its implementation so that the two can vary independently.
+
+module.009-Strategy
+Define a family of algorithms, encapsulate each one, and make them interchangeable.
+Strategy lets the algorithm vary independently by clients that use it.
+
+module-010-Template
+Define the skeleton of an algorithm in an operation,deferring some steps to subclasses.
+Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.
+
+module-011-Command
+Encapsulate a request as an object.
+Letting you parameterize clients with different requests, queues, or log requests, and supports undoable operations.
+
+module-012-Validator
+Provides an architecture for securing and inspecting objects based on given conditions.
+Returning inspected object or triggers an event upon inspection failure.
+
+module-013-Iterator
+Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+
+module-014-Adopter
+Convert the interface of a class into another interface that clients expect.
+Adapter lets classes work together that could not otherwise because of incompatible interfaces.
+
+module-015-Memento
+Without violating encapsulation, capture and externalize an object’s internal state.
+So that the object can be restored to this state later.
